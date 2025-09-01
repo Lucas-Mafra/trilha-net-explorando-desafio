@@ -1,6 +1,6 @@
 # DIO - Trilha .NET - Explorando a linguagem C#
 
-Projeto de sistema de hospedagem para hotéis, desenvolvido como desafio do módulo "Explorando a linguagem C#" da trilha .NET da [DIO](https://www.dio.me).
+Projeto desenvolvido como desafio do módulo de Fundamentos da trilha .NET da [DIO](https://www.dio.me/).
 
 ## Desafio
 
@@ -41,12 +41,19 @@ Você foi contratado para construir um sistema de hospedagem, que será usado pa
 
 ## Como Executar
 
-1. Clone este repositório:
+1. **Pré-requisitos:**  
+   - [.NET 6.0 SDK ou superior](https://dotnet.microsoft.com/download)
+
+2. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd trilha-net-fundamentos-desafio
    ```
-2. Abra o projeto no Visual Studio ou VS Code.
-3. Compile e execute o projeto.
+
+3. **Rode o projeto:**
+   ```bash
+   dotnet run
+   ```
 
 ## Exemplo de Uso
 
@@ -71,10 +78,6 @@ Console.WriteLine($"Hóspedes: {reserva.ObterQuantidadeHospedes()}");
 Console.WriteLine($"Valor total: {reserva.CalcularValorDiaria()}");
 ```
 
-## Observações
-
-- Procure pela palavra **"TODO"** no código para identificar pontos a serem implementados.
-- Siga as regras acima para garantir o correto funcionamento do sistema.
 
 ## Licença
 
