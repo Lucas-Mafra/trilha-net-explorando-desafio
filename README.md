@@ -47,7 +47,7 @@ Você foi contratado para construir um sistema de hospedagem, que será usado pa
 2. **Clone o repositório:**
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd trilha-net-fundamentos-desafio
+   cd trilha-net-explorando-desafio
    ```
 
 3. **Rode o projeto:**
